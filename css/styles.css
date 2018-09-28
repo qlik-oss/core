@@ -1,0 +1,86 @@
+h2 {
+  font-weight: 600;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont;
+  line-height: 1.5;
+  color: white;
+  margin: 0;
+}
+.ascii {
+  font-size: 10pt;
+  font-family: Monospace;
+  white-space: pre;
+}
+.section {
+  padding-top: 3rem;
+  height: 100vh;
+  min-height: 600px;
+  background: linear-gradient(-45deg, #c4cfda 33%, transparent 0),
+    linear-gradient(-45deg, #244b5a 100%, transparent 0);
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+img {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.boldColored {
+  font-weight: bold;
+  color: #009845;
+}
+a {
+  color: white;
+}
+
+.mt {
+  margin-top: 3rem;
+}
+.col {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.smallFont {
+  font-size: 14px;
+}
